@@ -6,5 +6,5 @@ setInterval(function(){
     counter=1 ;
             }
 }
-,2000);
+,3000);
     
