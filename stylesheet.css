@@ -1,12 +1,7 @@
-body{
-    font-size: x-large;
-    }
 .head{
     margin: 5px;
-    width: 0px;
     line-height: 6px;
     padding: auto;
-    font-size:medium;
  }
 
 
@@ -16,17 +11,18 @@ strong {
 
 
 .container{
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 0;
+    width: 100%;  
 }
 
 .images{
     display: flex;
 }
 .image{
-    min-width: 100%;
+    min-width:100%;
+    max-width: 100%;
     transition:2s;
-    margin-bottom: -160px;
+        
    }
 .image img{
     width: 70%;
@@ -37,32 +33,31 @@ strong {
 }
 
 .images input{
-    display: none;
+display: none;
 }
 
 .navigation-manual{
     display: flex;
      margin-left:39%;
-     margin-top: -11%;
+    margin-top:-35% ;
    }
 
 
 .manual-btn{
-    border: 4px solid #40D3DC;
-    border-radius:10px;
+    border-radius:1%;
     cursor: pointer;
     transition-delay: 1s;
-    padding: 4px;
-    margin: 2px;
-    border: 2px solid #f00510;
-
+    padding: 2%;
+    margin: 2%;
+    opacity: 2;
+    background:white;
 }
 
 .manual-btn:hover{
     background: #f307a4;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~  .first{
     margin-left: 0;
 }
 #radio2:checked ~ .first{
@@ -122,10 +117,9 @@ body{
     padding: 10px;
     box-sizing: border-box;
     font-weight:normal;
-    font-size: 20px;
     background:rgb(6, 247, 46);
     border-radius: 7px;
-   
+      
 }
 .visits img{
     width: 30%;
@@ -164,25 +158,26 @@ body{
 header{
     border-radius: 4px;
     background-color:rgb(6, 247, 46);
-    font-size: 30px;
     margin:1%;
     padding:1%;
     color: rgb(41, 39, 40);
+    overflow:auto;
 }
 header p {
-    margin-left:15%;
+    margin-left:25%;
     width : 5%;
 }
 
 header strong{
     width :5%;
-    margin-left: 1200%;
+    margin-left: 700%;
+    clear:both;
 }
 header img{
-    width: 35%;
+    width: 25%;
     border-radius: 5px;
     margin-left: 32%;
-    margin-bottom: -12%;
+    margin-bottom: -7%;
 }
 
 
@@ -193,6 +188,8 @@ ol {
     float: left;
     width: 20%;
     color: violet;
+    margin-left: 1%;
+    overflow:auto;
 }
 
 .Founders img{
@@ -210,7 +207,10 @@ ol {
         .Mission{
             float:left;
             width: 20%;
-            color: violet;         
+            color: violet;
+            clear: left;
+            margin-left: 1%;
+            overflow: auto;
         }
 
 .Mission img{
@@ -247,3 +247,39 @@ ol {
 .images2{
     margin-left: 20%;
 }
+
+.images{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
